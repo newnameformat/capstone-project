@@ -1,5 +1,5 @@
 # capstone-project
-You can view the live site here [Github Pages LInk] (https://newnameformat.github.io/capstone-project/) 
+You can view the live site here [Vercel Link] (https://capstone-project-jrjml.vercel.app/)
 
 The purpose of this capstone project created for Liberty University is to redesign the local library's website with WCAG in mind. 
 
