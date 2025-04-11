@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J. Robert Jamerson Memorial Library</title>
+    <link rel="stylesheet" href="programs/programs.css">
+    <link rel="icon" type="image/x-icon" href="programs/JRJML-favicon.png">
+</head>
+<body>
+    <header class="header">
+	<a href="index.html"><img src="programs/JRJML-logo.png" alt="JRJML Logo" class="logo-container"></a>
+        <!--<h1>J. Robert Jamerson Memorial Library</h1>-->
+	<div class="header-right">
+        	<a href="https://pac.jrjml.org/#section=login"><button class="login-button">Login</button></a>
+		&nbsp;
+		<a href="https://pac.jrjml.org/#section=obrsignup"><button class="login-button">Sign Up</button></a>
+		&nbsp;
+    	</div>
+    </header>
+    <!-- <div class="header-image">
+        <img src="programs/summerreading.jpg" alt="Header Image">
+    </div> -->
+<nav>
+  <ul>
+    <li class="dropdown">
+      <button class="dropbtn">Services</button>
+      <div class="dropdown-content">
+        <a href="/services.html">Services</a>
+        <a href="/librarycard.html">Library Card</a>
+        <a href="/complab.html">Computer Lab</a>
+	<a href="/meetingspaces.html">Meeting Spaces</a>
+      </div>
+    </li>
+    <li>
+      <a href="/resources.html">Online Resources</a>
+    </li>
+    <li>
+      <a href="/about.html">About</a>
+    </li>
+    <li>
+      <a href="/programs.html">Programs</a>
+    </li>
+    <li>
+      <a href="/contact.html">Contact</a>
+    </li>
+    <li>
+      <a href="https://pac.jrjml.org/#section=home">Catalog</a>
+    </li>
+  </ul>
+</nav>
+    <main>
+<section class="feature">
+&nbsp;
+  <ul class="link">
+    <li>
+      <a href="#summerreading"><button class="btn-hover">Summer Reading</button></a>
+    </li>
+    <li>
+      <a href="#1000things"><button class="btn-hover" style="background-image: linear-gradient(to right, #04823c, #21cf6f, #00b852, #47f595);">1,000 Things</button></a>
+    </li>
+    <li>
+      <a href="simple-calendar/dist/calendar.html" target=”_blank”><button class="btn-hover" style="background-image: linear-gradient(to right, #7802ab, #cc6ef5, #a01ad9, #be40f5);">Calendar</button></a>
+    </li>
+  </ul>
+&nbsp;
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="programs/storytime.png" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <img src="programs/thousandthings.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="programs/summerreading.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 9000); // Change image every 2 seconds
+}
+</script>
+&nbsp;
+&nbsp;
+&nbsp;
+  <div>
+    <h2 id="summerreading">Summer Reading 2024 Program</h2>
+    <h3>Adventure Begins at Your Library</h3>
+    <p>Welcome to the J. Robert Jamerson Memorial Library 2024 Summer Reading Program! The theme for this year's Summer <br> Reading Program is "Adventure Begins at Your Library." Join us this summer as we pack up our compasses & passports, <br> travel by train, car, boat or plane and begin our adventures! Why not start at your local library?! Sign up for a library card! <br>Adventure awaits you!</p>
+    <h4>Program Participation</h4>
+    <p>This year's program will take place <b>in person.</b> Visit the library to register and participate in this year's summer reading <br> program, Adventure Begins at Your Library!</p>
+    <h5>Age Groups</h5>
+    <ul>
+	<li><span style="color: purple">2-5 Years of age (Purple Group)</span> - For every 30 minutes that someone reads to you or you read on your own, you will <br>earn a summer reading ticket. <br>*If you have not yet begun Kindergarten and are up to 5 years of age, you have the option to sign up for both Summer <br>Reading and the 1,000 Things Before Kindergarten Program (see below)<br>.</li>
+	<li><span style="color: blue">6-10 Years of age (Blue Group)</span> - For every 30 minutes that someone reads to you or you read on your own, you will <br> earn a summer reading ticket.</li>
+	<li><span style="color: green">11-17 Years of age (Green Group)</span> - For every 30 minutes that you read, you will earn a summer reading ticket.</li>
+	<li><span style="color: gold">18+ Years of age (Yellow Group)</span> - For every 30 minutes that you read, you will earn an entry into the adult <br> summer reading raffle.</li>
+    </ul>
+    <h5>Registration</h5>
+	<p>You can register in person at the library starting <b>June 3rd.</b> You must be present to be registered.</p>
+    <h5>Prizes</h5>
+	<ul>
+		<li>There will be weekly prizes for reading.</li>
+		<li>Each age group will have 1 grand prize winner (at the end of the program) per group.</li>
+		<li><span style="color: purple">Purple</span>, <span style="color: blue">Blue</span>, and <span style="color: green">Green</span> groups can redeem their summer reading tickets for prizes at the circulation desk. <br>You must redeem tickets <b>in person.</b></li>
+	</ul>
+    <h5>How to Earn Prizes</h5>
+	<ul>
+		<li>30 minutes of reading will earn you a library ticket.</li>
+		<li>You can earn 3 summer reading tickets or adult summer reading raffle tickets <b>per week.</b></li>
+		<li>1 summer reading ticket will "buy" you a summer reading prize.</li>
+	</ul>
+    <h4>Important Dates</h4>
+	<ul>
+		<li>Program Dates: Monday, <b>June 3rd</b> - Friday, <b>July 26th</b></li>
+		<li>Fun & Craft Day: <b>June 5th</b> (Summer Reading Kickoff)</li>
+		<li>Last day to turn in reading logs: Friday, <b>August 2nd.</b> Reading logs will not be accepted after this date.</li>
+		<li>Last day to redeem tickets: Friday, <b>August 9th</b>. Tickets will not be accepted after this date.</li>
+	</ul>
+  </div>
+&nbsp;
+&nbsp;
+<div>
+    <h2 id="1000things">1,000 Things Before Kindergarten</h2>
+    <h3>About the Program</h3>
+    <p>Welcome to 1,000 Things Before Kindergarten with JRJML! We are excited to start offering this program in partnership with <br> the Library of Virginia, the Soho Center, and the Institute of Museum and Library Services.
+
+The goal of this program is to <br> help children prepare for kindergarten through fun, engaging, everyday activities. There are suggested resources that you can <br> click on below for inspiration, but any activity that promotes growth and development counts towards your child’s 1000 “things!” <br>JRJML is here to support your family from birth to 1000! As your child progresses, they will receive milestone rewards to from <br> the beginning up until they complete each 100 “things” including a new book at every 100 milestone and a certificate signed by <br> a librarian! You can easily keep track of how many “things” they have done through our printed tracking logs.</p>
+    <h4>Program Participation</h4>
+    <p>Children as young as 18 months can participate in the program, all the way up until they start kindergarten or turn five years of <br>age, whichever comes first. A single log contains 100 "things," and once each sheet has been filled out, parents can turn it in to <br> a Librarian to receive their child's first milestone book of their choice. Logs can be turned in whenever families have the time, <br>as there are no deadlines for each milestone.</p>
+    <h5>Registration</h5>
+	<p>To sign up for the program, visit the J. Robert Jamerson Memorial Library and speak to a librarian. We will get you set and <br> ready to start working towards 1,000 things with a few, simple steps.</p>
+    <h5>Additional Information for Early Readers</h5>
+    <ul>
+	<li><a href="http://www.child2000.org/lit-tipsMenu.htm" target=”_blank”>National Children's Literacy Website</a>
+</li>
+	<li><a href="https://thebasics.org/" target=”_blank”>The Basics Website</a></li>
+	<li><a href="https://go.gale.com/ps/start.do?p=ITKE&u=va0045_002&aty=referringurl" target=”_blank”>Gale in Context | Elementary</a></li>
+    </ul>
+</section>
+&nbsp;
+&nbsp;
+</main>
+<div id="footer">
+  <div class="footer-container">
+    <div class="column">
+      <h2>Contact Us</h2>
+      <ul>
+        <li>
+          <p class="column-p">
+            157 Main St.
+            <br />
+	    P.O. Box 789
+	    <br />
+            Appomattox, Virginia 24522
+          </p>
+        </li>
+        <li>
+          <p class="column-p">(434) 352-5340</p>
+        </li>
+        <li>
+          <p class="column-p">
+            9:30 am - 5:00 pm - Mon. & Fri.
+	    <br />
+            9:30 am - 8:00 pm - Tues. - Thurs. 
+	    <br />
+            9:30 am - 1:00 pm - Sat.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4Wg-bnVS0eybioy-y2VrQnpr3Qgt2z5WdUBf96pyTXXbxsA/viewform">Public Satisfaction Survey</a></li>
+        <li><a href="programs/PolicyManual.pdf">Policies</a></li>
+        <li><a href="">Help</a></li>
+        <li><a href="https://www.appomattoxcountyva.gov/Jobs.aspx?CatID=101&Search=True">Careers</a></li>
+	<li><a href="https://www.appomattoxcountyva.gov/">County of Appomattox</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Social Media</h2>
+      <div class="column-img">
+ 	 <a href="https://www.facebook.com/JamersonMemorialLibrary"><img src="programs/facebook.png" alt="Facebook Logo"></a>
+ 	 <a href="https://www.instagram.com/jamersonlibrary/?hl=en"><img src="programs/instagram.png" alt="Instagram Logo"></a>
+ 	 <a href="https://www.instagram.com/jamersonlibrary/?hl=en"><img src="programs/youtube.png" alt="YouTube Logo"></a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
