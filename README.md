@@ -8,5 +8,5 @@ The calendar portion of this project is an edited version of the Simple Calendar
 
 ## Live Host Link & Internet Archive
 - You can view the live site here [Vercel Link] (https://capstone-project-jrjml.vercel.app/)
-- You can view the former website here [Wayback Machine Link](https://web.archive.org/web/20230811093316/https://www.jrjml.org/)
+- You can view the former website here [Wayback Machine Link] (https://web.archive.org/web/20230811093316/https://www.jrjml.org/)
 
